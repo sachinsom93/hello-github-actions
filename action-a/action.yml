@@ -1,0 +1,17 @@
+name: "Hellow Actions"
+description: "Greet Someone"
+author: "sachinsom507@gmail.com"
+
+inputs: 
+  MY_NAME:
+    description: "Who to greet"
+    required: true
+    default: "Sachin"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
